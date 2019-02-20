@@ -21,23 +21,30 @@ docker run -p 4001:4001 anjali/dronebackend
 
 Without Docker, backend be also be run using following commands
 
+```
 npm install
 npm run start-dev // For running typescript files locally
 or
 npm run build // This will convert tsc to javascript into dist/ folder 
+```
+
 
 ##INSTRUCTIONS FOR RUNNING FRONTEND##
 
 within droneclient there is a dockerfile please build docker image via following command
-
+```
 cd droneclient
 docker build -t anjali/droneclient .
 docker run -p 3000:3000 anjali/droneclient 
+```
+
 
 Without Docker, backend be also be run using following commands
-
+```
 npm install
 npm run start  
+```
+
 
 ## Please refer attached screen shot taken locally to illustrate what has been done##
 
