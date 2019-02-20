@@ -1,5 +1,8 @@
 ## This project is created using nodejs,react,couchbase, Dockers,websocket and typescript
 
+### Prerequisites
+Install nodejs, react , Dockers, typescript and couchbase
+
 droneBackend serves as the backend server whereas droneClient serves as the frontend reprepresenting drones movement
 
 # Please install couchbase latest version locally with following credentials
