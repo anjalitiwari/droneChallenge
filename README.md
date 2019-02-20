@@ -3,7 +3,7 @@
 ### Prerequisites
 Install nodejs, react , Dockers, typescript and couchbase
 
-droneBackend serves as the backend server whereas droneClient serves as the frontend reprepresenting drones movement
+droneBackend serves as the backend server whereas droneclient serves as the frontend reprepresenting drones movement
 
 # Please install couchbase latest version locally with following credentials
 
@@ -16,7 +16,7 @@ Couchbase is used for storing all the drones and updating their movements using 
 
 ## INSTRUCTIONS FOR RUNNING BACKEND
 
-within droneBackend there is a dockerfile please build docker image via following command
+within droneBackend there is a dockerfile please build docker image and run the same
 
 ```
 cd droneBackend
@@ -24,7 +24,7 @@ docker build -t anjali/dronebackend .
 docker run -p 4001:4001 anjali/dronebackend 
 ```
 
-Without Docker, backend be also be run using following commands
+Without Docker backend can be also be run using following commands
 
 ```
 npm install
@@ -54,7 +54,7 @@ npm run start
 ## Please refer attached screen shot taken locally to illustrate what has been done
 
 ## Area of Improvements
-Due to time constraint , many things are kept static like port number couchbase configuration which can be made modular and whicc can come from config
+Due to time constraint , many things are kept static like port number, couchbase configuration which can be made modular and which can be fetched from configuration file
 
-Also Not all test cases are covered
+Not all test cases are covered
 
