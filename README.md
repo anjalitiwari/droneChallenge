@@ -3,6 +3,7 @@ This project is created using nodejs,react,couchbase, Dockers,websocket and type
 droneBackend serves as the backend server whereas droneClient serves as the frontend reprepresenting drones movement
 
 Please install couchbase latest version locally with following credentials
+
 username - 'Administrator'
 password - 'root123'
 
@@ -28,6 +29,7 @@ npm run build // This will convert tsc to javascript into dist/ folder
 ##INSTRUCTIONS FOR RUNNING FRONTEND##
 
 within droneclient , there is dockerfile please build docker image via following command
+
 cd droneclient
 docker build -t anjali/droneclient .
 docker run -p 3000:3000 anjali/droneclient 
