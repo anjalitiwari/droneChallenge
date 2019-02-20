@@ -13,6 +13,7 @@ Couchbase is used for storing all the drones and updating their movements using 
 ##INSTRUCTIONS FOR RUNNING BACKEND##
 
 within droneBackend , there is dockerfile please build docker image via following command
+
 cd droneBackend
 docker build -t anjali/dronebackend .
 docker run -p 4001:4001 anjali/dronebackend 
