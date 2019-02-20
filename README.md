@@ -2,7 +2,7 @@
 
 droneBackend serves as the backend server whereas droneClient serves as the frontend reprepresenting drones movement
 
-Please install couchbase latest version locally with following credentials
+# Please install couchbase latest version locally with following credentials
 
 username - 'Administrator'
 password - 'root123'
@@ -31,7 +31,7 @@ npm run build // This will convert tsc to javascript into dist/ folder
 ```
 
 
-## INSTRUCTIONS FOR RUNNING FRONTEND##
+## INSTRUCTIONS FOR RUNNING FRONTEND
 
 within droneclient there is a dockerfile please build docker image via following command
 ```
