@@ -5,7 +5,7 @@ import cors from 'cors';
 import couchbase from 'couchbase';
 
 //Connect Couchbase
-//const ip = 'localhost';
+//This will come from config file in next release
 const username = 'Administrator';
 const password = 'root123';
 const bucketToConnect = 'default';
