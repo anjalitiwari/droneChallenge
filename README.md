@@ -3,7 +3,7 @@
 ### Prerequisites
 Install nodejs, react , Dockers, typescript and couchbase
 
-droneBackend serves as the backend server whereas droneclient serves as the frontend reprepresenting drones movement
+droneBackend serves as the backend server whereas droneclient serves as the frontend representing drones movement
 
 # Please install couchbase latest version locally with following credentials
 
