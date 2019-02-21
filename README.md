@@ -1,18 +1,21 @@
-## This project is created using nodejs,react,couchbase, Dockers,websocket and typescript
+## Project Description
+
+This is a simple illustration of building a system using nodejs,react,couchbase, Dockers,websocket and typescript where we have drones moving in the front end which will continuously change their positions in a quadrant such that whenever a new drone is added, server will publish the updated placements of active drones via web-sockets. There is a provision of adding and deleting drones on the fly 
 
 ### Prerequisites
 Install nodejs, react , Dockers, typescript and couchbase
 
 droneBackend serves as the backend server whereas droneclient serves as the frontend reprepresenting drones movement
 
-# Please install couchbase latest version locally with following credentials
-
+## Please install couchbase latest version locally with following credentials
+```
 username - 'Administrator'
 password - 'root123'
 
 please create bucket "default" in the couchbase
 
 Couchbase is used for storing all the drones and updating their movements using websockets
+```
 
 ## INSTRUCTIONS FOR RUNNING BACKEND
 
